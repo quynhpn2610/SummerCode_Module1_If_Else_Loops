@@ -29,7 +29,6 @@ function getMax() {
     document.getElementById("result").innerHTML = "<h4>Result: " + findMax(a, b, c) + "</h4>";
 }
 
-
 // if 2
 // bai 6
 // bai 7
