@@ -28,10 +28,10 @@ function findMax(num1, num2, num3){
 // }
 
 function getMax() {
-    let a = document.getElementById("num1").value;
-    let b = document.getElementById("num2").value;
-    let c = document.getElementById("num3").value;
-    document.getElementById("result").innerHTML = "<h4>Result: " + findMax() + "</h4>";
+    let a = parseInt(document.getElementById("num1").value);
+    let b = parseInt(document.getElementById("num2").value);
+    let c = parseInt(document.getElementById("num3").value);
+    document.getElementById("result").innerHTML = "<h4>Result: " + findMax(a, b, c) + "</h4>";
 }
 
 
