@@ -22,11 +22,6 @@ function findMax(num1, num2, num3){
     return max;
 }
 
-// let myArr = []
-// for (let i=0; i<3; i++){
-//     myArr[i] = parseInt(prompt("Enter an integer: "));
-// }
-
 function getMax() {
     let a = parseInt(document.getElementById("num1").value);
     let b = parseInt(document.getElementById("num2").value);
