@@ -30,7 +30,17 @@ function getMax() {
 }
 
 // if 2
-// bai 6
+// bai 6: Giai phuong trinh bac 1 dang ax + b = 0
+let result = 0
+function linearFuncSolver(a, b){
+    if(a==0){
+        if(b=0){
+            
+        }
+    }
+}
+
+
 // bai 7
 // bai 12
 
