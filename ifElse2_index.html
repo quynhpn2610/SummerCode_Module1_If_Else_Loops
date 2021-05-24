@@ -1,10 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Advanced Calculator</title>
 </head>
 <body>
-$END$
+<div>
+    <h2 style="color: plum">Giai phuong trinh bac 1</h2>
+</div>
+<div>
+  <form action="" method="get">
+    <label for="a">Enter number 1: </label>
+    <input type="number" id = a><br>
+    <label for="b">Enter number 2: </label>
+    <input type="number" id = b><br>
+    <button type = button onclick="Solve1()" style = "background-color: plum">Solve</button>
+  </form>
+</div>
+<div id = result1></div>
+
+<div>
+    <h2 style="color: olivedrab">Giai phuong trinh bac 2</h2>
+</div>
+<div>
+    <form action="" method="get">
+        <label for="a1">Enter number 1: </label>
+        <input type="number" id = a1><br>
+        <label for="b1">Enter number 2: </label>
+        <input type="number" id = b1><br>
+        <label for="c">Enter number 3: </label>
+        <input type="number" id = c><br>
+        <button type = button onclick="Solve2()" style = "background-color: olivedrab">Solve</button>
+    </form>
+</div>
+<div id = result2></div>
+
+
+<div>
+    <h2 style="color: cornflowerblue">Compound Interest Rate Calculator</h2>
+</div>
+<div>
+    <form action="" method="get">
+        <label for="amount">Initial amount: </label><br>
+        <input type="number" id = amount><br>
+        <label for="rate">Annual rate (%): </label><br>
+        <input type="number" id = rate><br>
+        <label for="n">Number of times the interest is compounded per year: </label><br>
+        <input type="number" id = n><br>
+        <label for="years">How many years do you want to keep? </label><br>
+        <input type="number" id = years><br>
+        <button type = button onclick="interestCalc()" style = "background-color: cornflowerblue">Calculate</button>
+    </form>
+</div>
+<div id = result3></div>
+
 </body>
+<script src="ifElse2_script.js"></script>
 </html>
