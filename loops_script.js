@@ -103,7 +103,7 @@ function printTriangle3() {
         }
         document.write("<br>");
     }
-    document.write("<br>");
+    //document.write("<br>");
 }
 
 
